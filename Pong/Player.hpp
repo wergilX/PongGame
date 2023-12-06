@@ -12,8 +12,8 @@ public:
 
 	virtual void Draw(SDL_Renderer* renderer, const AssetManager& assets) const override;
 	virtual SDL_FRect Collider() const override;
-	void SetController(Control* control);
 	virtual void Update() override;
+	void SetController(Control* control);
 
 private:
 

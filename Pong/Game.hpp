@@ -5,14 +5,9 @@
 
 #include "SDL.h"
 
-#include "PlayerFactory.hpp"
-#include "AssetManager.hpp"
-#include "Background.hpp"
 #include "Control.hpp"
-#include "Player.hpp"
-#include "Score.hpp"
-#include "Ball.hpp"
-#include "Bot.hpp"
+#include "AssetManager.hpp"
+#include "PlayerFactory.hpp"
 
 class Game
 {

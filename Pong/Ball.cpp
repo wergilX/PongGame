@@ -1,5 +1,5 @@
-#include "Constants.hpp"
 #include "SDL_mixer.h"
+#include "Constants.hpp"
 #include "Player.hpp"
 #include "Ball.hpp"
 #include "Bot.hpp"

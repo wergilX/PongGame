@@ -7,9 +7,9 @@ class Bot : public GameObject
 {
 public:
 
+	Bot(SDL_FRect rect, size_t texture);
 	virtual void Draw(SDL_Renderer* renderer, const AssetManager& assets) const override;
 	virtual SDL_FRect Collider() const override;
-	Bot(SDL_FRect rect, size_t texture);
 	virtual void Update() override;
 	void SetBall(Ball* ball);
 

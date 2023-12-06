@@ -39,7 +39,6 @@ int main(int argc, char** argv)
 		Game game;
 		game.Run();
 	}
-
 	catch (std::exception& ex)
 	{
 		printf("Error: %s\n", ex.what());
