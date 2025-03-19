@@ -1,45 +1,30 @@
 # Pong game
 
-OOP:
-	Инкапсуляция
-		Все сущности программы являются объектами содержащими данные и поведения и предоставляющие
-		публичный интерфейс для взаимодействия с ними.
-	Наследование
-		Игровые сущности реализуют интерфейс Game Obj являющийся базовым классом для всех видимых объектов в игре
-	Полиморфизм
-		Поскольку все игровые сущности наследуют класс Game Obj появляется возможность работать
-		со всеми игровыми объектами посредством указателя на базовый класс
+**Pong** is one of the first computer games that ever created, this simple "tennis like" game features two paddles and a ball,
 
-STL:
-	Работа класса AssetManager основана на STL ассеты хранятся в ассоциативном контейнере, обход 
-	контейнера и доступ к его элементам выполняется с помощью итераторов для поиска элементов используется 
-	алгоритм find. Также для управления ресурсов игры используются умные указатели.
+---
 
-Внешние библиотеки:
-	SDL
-		Подключен для реализации игрового окна и использования классов которые позволяют отрисовывать
-		и создавать различные объекты а также реализовывать управление.
-	SDL_image
-		Подключен для загрузки и отображения изображений.
-	SDL_mixer
-		Подключен для сопровождения игровых событий звуковыми эффектами.
-	SDL_ttf
-		Подключен для вывода чисел счета каждого игрока.
+## Main Components
 
-Архитектура игровых движков:
-	В игре применяется некоторые архитектурные решения используемые в игровых движках:
-		Game loop
-		Game obj
-		Scene
-		Реализована блокировка частоты кадров
-		Collider,transform
+- **SDL 2** - Connected for implementing the game window and using classes that allow rendering and creating various objects, as well as implementing controls.
+- **SDL_image** - Connected for loading and displaying images.
+- **SDL_mixer**	- Connected for accompanying game events with sound effects.
+- **SDL_ttf** - Connected for displaying each player's score numbers..
 
-Паттерны:
-	В программе используется два паттерна проектирования:
-		Factory:
-			Для создания игроков(человека и бота).
-		Observer:
-			Реализован для оповещения объекта счета(Score), о пропуске мяча игроком. 
-		
+---
 
+## Project Goals
 
+1. **Deepen C++ Skills:**
+
+   - OOP
+   - STL
+   - Design Patterns (Factory, Observer)
+
+2. **Utilize Game Engine Architecture**
+
+   - Game loop
+   - Game object
+   - Scene
+   - Colider
+   - Transform
